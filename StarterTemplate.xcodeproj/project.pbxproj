@@ -156,6 +156,7 @@
 		6E0F00F81A89350C006115CF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Jaguar Labs";
 				TargetAttributes = {
@@ -386,6 +387,7 @@
 				6E0F01211A89350F006115CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E0F01221A89350F006115CF /* Build configuration list for PBXNativeTarget "StarterTemplateTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +396,7 @@
 				6E0F01241A89350F006115CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
