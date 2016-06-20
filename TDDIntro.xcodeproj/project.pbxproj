@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		6E0F01061A89350D006115CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F01051A89350D006115CF /* AppDelegate.swift */; };
 		6E0F010D1A89350E006115CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F010C1A89350E006115CF /* Images.xcassets */; };
-		6E0F011C1A89350E006115CF /* StarterTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F011B1A89350E006115CF /* StarterTemplateTests.swift */; };
 		6E0F01261A893C3A006115CF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F01251A893910006115CF /* Default-568h@2x.png */; };
 		6E0F01291A893CEC006115CF /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F01271A893CEC006115CF /* MainVC.swift */; };
 		6E0F012A1A893CEC006115CF /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F01281A893CEC006115CF /* MainVC.xib */; };
+		B66A0ED81D186EC600EFB939 /* TDDIntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A0ED71D186EC600EFB939 /* TDDIntroTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,21 +21,21 @@
 			containerPortal = 6E0F00F81A89350C006115CF /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6E0F00FF1A89350C006115CF;
-			remoteInfo = StarterTemplate;
+			remoteInfo = TDDIntro;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6E0F01001A89350D006115CF /* StarterTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarterTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0F01001A89350D006115CF /* TDDIntro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDIntro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E0F01041A89350D006115CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E0F01051A89350D006115CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E0F010C1A89350E006115CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6E0F01151A89350E006115CF /* StarterTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarterTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0F01151A89350E006115CF /* TDDIntro.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDIntro.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E0F011A1A89350E006115CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E0F011B1A89350E006115CF /* StarterTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterTemplateTests.swift; sourceTree = "<group>"; };
 		6E0F01251A893910006115CF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6E0F01271A893CEC006115CF /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		6E0F01281A893CEC006115CF /* MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		B66A0ED71D186EC600EFB939 /* TDDIntroTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDDIntroTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				6E0F01251A893910006115CF /* Default-568h@2x.png */,
-				6E0F01021A89350D006115CF /* StarterTemplate */,
-				6E0F01181A89350E006115CF /* StarterTemplateTests */,
+				6E0F01021A89350D006115CF /* TDDIntro */,
+				6E0F01181A89350E006115CF /* TDDIntroTests */,
 				6E0F01011A89350D006115CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,13 +69,13 @@
 		6E0F01011A89350D006115CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E0F01001A89350D006115CF /* StarterTemplate.app */,
-				6E0F01151A89350E006115CF /* StarterTemplateTests.xctest */,
+				6E0F01001A89350D006115CF /* TDDIntro.app */,
+				6E0F01151A89350E006115CF /* TDDIntro.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6E0F01021A89350D006115CF /* StarterTemplate */ = {
+		6E0F01021A89350D006115CF /* TDDIntro */ = {
 			isa = PBXGroup;
 			children = (
 				6E0F01051A89350D006115CF /* AppDelegate.swift */,
@@ -84,7 +84,7 @@
 				6E0F01271A893CEC006115CF /* MainVC.swift */,
 				6E0F01281A893CEC006115CF /* MainVC.xib */,
 			);
-			path = StarterTemplate;
+			path = TDDIntro;
 			sourceTree = "<group>";
 		};
 		6E0F01031A89350D006115CF /* Supporting Files */ = {
@@ -95,13 +95,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6E0F01181A89350E006115CF /* StarterTemplateTests */ = {
+		6E0F01181A89350E006115CF /* TDDIntroTests */ = {
 			isa = PBXGroup;
 			children = (
-				6E0F011B1A89350E006115CF /* StarterTemplateTests.swift */,
+				B66A0ED71D186EC600EFB939 /* TDDIntroTests.swift */,
 				6E0F01191A89350E006115CF /* Supporting Files */,
 			);
-			path = StarterTemplateTests;
+			path = TDDIntroTests;
 			sourceTree = "<group>";
 		};
 		6E0F01191A89350E006115CF /* Supporting Files */ = {
@@ -115,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6E0F00FF1A89350C006115CF /* StarterTemplate */ = {
+		6E0F00FF1A89350C006115CF /* TDDIntro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E0F011F1A89350F006115CF /* Build configuration list for PBXNativeTarget "StarterTemplate" */;
+			buildConfigurationList = 6E0F011F1A89350F006115CF /* Build configuration list for PBXNativeTarget "TDDIntro" */;
 			buildPhases = (
 				6E0F00FC1A89350C006115CF /* Sources */,
 				6E0F00FD1A89350C006115CF /* Frameworks */,
@@ -127,14 +127,14 @@
 			);
 			dependencies = (
 			);
-			name = StarterTemplate;
-			productName = StarterTemplate;
-			productReference = 6E0F01001A89350D006115CF /* StarterTemplate.app */;
+			name = TDDIntro;
+			productName = TDDIntro;
+			productReference = 6E0F01001A89350D006115CF /* TDDIntro.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6E0F01141A89350E006115CF /* StarterTemplateTests */ = {
+		6E0F01141A89350E006115CF /* TDDIntroTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E0F01221A89350F006115CF /* Build configuration list for PBXNativeTarget "StarterTemplateTests" */;
+			buildConfigurationList = 6E0F01221A89350F006115CF /* Build configuration list for PBXNativeTarget "TDDIntroTests" */;
 			buildPhases = (
 				6E0F01111A89350E006115CF /* Sources */,
 				6E0F01121A89350E006115CF /* Frameworks */,
@@ -145,9 +145,9 @@
 			dependencies = (
 				6E0F01171A89350E006115CF /* PBXTargetDependency */,
 			);
-			name = StarterTemplateTests;
-			productName = StarterTemplateTests;
-			productReference = 6E0F01151A89350E006115CF /* StarterTemplateTests.xctest */;
+			name = TDDIntroTests;
+			productName = TDDIntroTests;
+			productReference = 6E0F01151A89350E006115CF /* TDDIntro.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -169,7 +169,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6E0F00FB1A89350C006115CF /* Build configuration list for PBXProject "StarterTemplate" */;
+			buildConfigurationList = 6E0F00FB1A89350C006115CF /* Build configuration list for PBXProject "TDDIntro" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -182,8 +182,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6E0F00FF1A89350C006115CF /* StarterTemplate */,
-				6E0F01141A89350E006115CF /* StarterTemplateTests */,
+				6E0F00FF1A89350C006115CF /* TDDIntro */,
+				6E0F01141A89350E006115CF /* TDDIntroTests */,
 			);
 		};
 /* End PBXProject section */
@@ -222,7 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E0F011C1A89350E006115CF /* StarterTemplateTests.swift in Sources */,
+				B66A0ED81D186EC600EFB939 /* TDDIntroTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +231,7 @@
 /* Begin PBXTargetDependency section */
 		6E0F01171A89350E006115CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6E0F00FF1A89350C006115CF /* StarterTemplate */;
+			target = 6E0F00FF1A89350C006115CF /* TDDIntro */;
 			targetProxy = 6E0F01161A89350E006115CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -318,9 +318,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = StarterTemplate/Info.plist;
+				INFOPLIST_FILE = TDDIntro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company-name.TDDIntro";
+				PRODUCT_NAME = TDDIntro;
 			};
 			name = Debug;
 		};
@@ -328,9 +329,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = StarterTemplate/Info.plist;
+				INFOPLIST_FILE = TDDIntro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.company-name.TDDIntro";
+				PRODUCT_NAME = TDDIntro;
 			};
 			name = Release;
 		};
@@ -346,10 +348,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = StarterTemplateTests/Info.plist;
+				INFOPLIST_FILE = TDDIntroTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarterTemplate.app/StarterTemplate";
+				PRODUCT_NAME = TDDIntro;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDIntro.app/TDDIntro";
 			};
 			name = Debug;
 		};
@@ -361,17 +363,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = StarterTemplateTests/Info.plist;
+				INFOPLIST_FILE = TDDIntroTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarterTemplate.app/StarterTemplate";
+				PRODUCT_NAME = TDDIntro;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDIntro.app/TDDIntro";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6E0F00FB1A89350C006115CF /* Build configuration list for PBXProject "StarterTemplate" */ = {
+		6E0F00FB1A89350C006115CF /* Build configuration list for PBXProject "TDDIntro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E0F011D1A89350F006115CF /* Debug */,
@@ -380,7 +382,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E0F011F1A89350F006115CF /* Build configuration list for PBXNativeTarget "StarterTemplate" */ = {
+		6E0F011F1A89350F006115CF /* Build configuration list for PBXNativeTarget "TDDIntro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E0F01201A89350F006115CF /* Debug */,
@@ -389,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E0F01221A89350F006115CF /* Build configuration list for PBXNativeTarget "StarterTemplateTests" */ = {
+		6E0F01221A89350F006115CF /* Build configuration list for PBXNativeTarget "TDDIntroTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E0F01231A89350F006115CF /* Debug */,
