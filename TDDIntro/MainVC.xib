@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainVC" customModule="TDDIntro" customModuleProvider="target">
             <connections>
+                <outlet property="etiquedaEtapaDelDia" destination="tlO-qN-FZl" id="Z33-nX-Xfi"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,8 +15,24 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tlO-qN-FZl">
+                    <rect key="frame" x="171" y="289" width="258" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="RPs-vQ-OOw"/>
+                        <constraint firstAttribute="width" constant="258" id="lAa-bf-vYV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <point key="canvasLocation" x="208" y="287"/>
+            <constraints>
+                <constraint firstItem="tlO-qN-FZl" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="0KZ-XP-gpz"/>
+                <constraint firstItem="tlO-qN-FZl" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="8ZJ-aH-b8q"/>
+            </constraints>
+            <point key="canvasLocation" x="553" y="558"/>
         </view>
     </objects>
 </document>

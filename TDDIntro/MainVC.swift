@@ -31,11 +31,13 @@ SOFTWARE.
 import UIKit
 
 class MainVC: UIViewController {
+    
+    @IBOutlet var etiquedaEtapaDelDia: UILabel?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
+        muestraEtapaDelDia(NSDate())
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,7 +45,11 @@ class MainVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    func muestraEtapaDelDia(dateTime: NSDate) {
+        let generador = GeneradorDeEtapasDelDia()
+        etiquedaEtapaDelDia?.text = generador.calcularEtapaDelDia(dateTime)
+    }
+    
     /*
     // MARK: - Navigation
 

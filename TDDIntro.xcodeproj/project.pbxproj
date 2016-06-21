@@ -13,6 +13,10 @@
 		6E0F01291A893CEC006115CF /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F01271A893CEC006115CF /* MainVC.swift */; };
 		6E0F012A1A893CEC006115CF /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F01281A893CEC006115CF /* MainVC.xib */; };
 		B66A0ED81D186EC600EFB939 /* TDDIntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A0ED71D186EC600EFB939 /* TDDIntroTests.swift */; };
+		B66A0EDA1D19907B00EFB939 /* GeneradorDeEtapasDelDia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A0ED91D19907B00EFB939 /* GeneradorDeEtapasDelDia.swift */; };
+		B66A0EDB1D19907B00EFB939 /* GeneradorDeEtapasDelDia.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66A0ED91D19907B00EFB939 /* GeneradorDeEtapasDelDia.swift */; };
+		B66A0EDC1D19950300EFB939 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0F01271A893CEC006115CF /* MainVC.swift */; };
+		B66A0EDD1D19950700EFB939 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E0F01281A893CEC006115CF /* MainVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 		6E0F01271A893CEC006115CF /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		6E0F01281A893CEC006115CF /* MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
 		B66A0ED71D186EC600EFB939 /* TDDIntroTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDDIntroTests.swift; sourceTree = "<group>"; };
+		B66A0ED91D19907B00EFB939 /* GeneradorDeEtapasDelDia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneradorDeEtapasDelDia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +88,7 @@
 				6E0F01031A89350D006115CF /* Supporting Files */,
 				6E0F01271A893CEC006115CF /* MainVC.swift */,
 				6E0F01281A893CEC006115CF /* MainVC.xib */,
+				B66A0ED91D19907B00EFB939 /* GeneradorDeEtapasDelDia.swift */,
 			);
 			path = TDDIntro;
 			sourceTree = "<group>";
@@ -203,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66A0EDD1D19950700EFB939 /* MainVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E0F01061A89350D006115CF /* AppDelegate.swift in Sources */,
+				B66A0EDA1D19907B00EFB939 /* GeneradorDeEtapasDelDia.swift in Sources */,
 				6E0F01291A893CEC006115CF /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +231,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B66A0ED81D186EC600EFB939 /* TDDIntroTests.swift in Sources */,
+				B66A0EDC1D19950300EFB939 /* MainVC.swift in Sources */,
+				B66A0EDB1D19907B00EFB939 /* GeneradorDeEtapasDelDia.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
